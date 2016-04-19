@@ -178,7 +178,7 @@ NexT.utils = NexT.$u = {
   },
 
   getScrollbarWidth: function () {
-    var $div = $('<div />').addClass('scrollbar-measure').prependTo('body');
+    var $div = $('<div>').addClass('scrollbar-measure').prependTo('body');
     var div = $div[0];
     var scrollbarWidth = div.offsetWidth - div.clientWidth;
 
@@ -196,3 +196,4 @@ NexT.utils = NexT.$u = {
     return this.isPisces();
   }
 };
+</div></=></div></div>
